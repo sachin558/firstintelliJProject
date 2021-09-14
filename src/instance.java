@@ -1,6 +1,4 @@
-//Q4. Design an application in java that contains a clain t tor at the time of its object creation.
-// The output should be the name and percentage of the topper.
-//
+// By using the commond line ragument find the sum of two number 
 import java.util.*;
 public class instance {
     public static void main(String args[]){
