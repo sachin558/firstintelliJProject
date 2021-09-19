@@ -3,7 +3,7 @@
 //// The values are passed through constructor at the time of its object creation.
 //// The output should be the name and percentage of the topper.
 ////
-import java .util.*;
+import java.util.*;
 public class StudentPer {
     String name;
     int per;
