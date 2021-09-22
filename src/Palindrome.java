@@ -32,11 +32,8 @@ public class Palindrome {
             System.out.println(te +" is not a palindrom number ");
         }
     }
-
     public static void main(String[] args) {
         Palindrome obj=new Palindrome();
         obj.display();
     }
-
-
 }

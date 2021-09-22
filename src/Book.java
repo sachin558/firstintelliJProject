@@ -42,10 +42,6 @@ public class Book {
 
     public static void main(String[] args) {
         Book obj=new Book("java ","sachin",4567342,1231);
-        obj.getName();
-        obj.getAuthor();
-        obj.getPrice();
-        obj.getQtyInstock();
         System.out.println("this is the book name"+obj.name);
         System.out.println("this the athour name "+" "+obj.author);
         System.out.println( "this the price of book "+" "+obj.price);

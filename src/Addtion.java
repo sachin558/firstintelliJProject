@@ -6,7 +6,7 @@
         b=80;
     }
     int ADD(){
-        return a-b;
+        return a+b;
     }
 
      public static void main(String[] args) {

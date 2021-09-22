@@ -8,7 +8,9 @@ public class Employee {
     int hours;
      void   getInfo(){
          Scanner sc=new Scanner(System.in);
+         System.out.println("enter the salary");
          salary=sc.nextInt();
+         System.out.println("entre the hours");
          hours=sc.nextInt();
     }
     void  AddSal(){
@@ -29,7 +31,7 @@ public class Employee {
         obj.getInfo();
         obj.AddSal();
         obj.AddWork();
-        System.out.println(obj.salary);
+        System.out.println("this the final salary of emloyee"+"\t"+obj.salary);
         System.out.println("here end the program");
     }
 
