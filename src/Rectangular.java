@@ -15,6 +15,7 @@ public class Rectangular{
         breath=sc.nextInt();
     }
     int  Area(){
+
         return lenght*breath;
     }
 
