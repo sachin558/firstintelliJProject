@@ -14,7 +14,6 @@ public class AnonymousArray {
     }
 
     public static void main(String[] args) {
-        //int arr1[]={10,20,40,80};
         AnonymousArray obj=new AnonymousArray();
         obj.initializearray(new int []{1,2,3,4,6});
     }

@@ -25,6 +25,7 @@ public class ArrayCheck {
     }
 
     public static void main(String[] args) {
+
         ArrayCheck obj=new ArrayCheck();
     }
 }
