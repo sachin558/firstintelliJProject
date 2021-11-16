@@ -3,8 +3,7 @@ This the Dynamic dispatch Method
  */
 
 public class DynamicDispachMethod {
-    public void M1(){
-        System.out.println("this is the prent class");
+    public void M1(){System.out.println("this is the prent class");
     }
 }
 class Child extends DynamicDispachMethod{
