@@ -7,17 +7,22 @@
 //Create an object of the Patient class and check the results.
 
 
+import java.util.Scanner;
+
 class patient{
     String name;
     double hight;
     double width;
     patient(){
-       name="sachin";
-       hight=90;
-       width=80;
+        Scanner sc=new Scanner(System.in);
+       name= sc.nextLine();
+        System.out.println("entre the hight");
+       hight=sc.nextInt();
+        System.out.println("enter the width");
+       width= sc.nextInt();
     }
     double computeBMI(){
-        return width/hight*hight;
+        return width/(hight*hight);
     }
 }
 
