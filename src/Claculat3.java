@@ -20,10 +20,12 @@ public class Claculat3 {
         System.out.println("entre the second number  ");
         num2= sc.nextInt();
     }
-    public  double powerInt(int num1,int num2){
+    public  double powerInt(
+            int num1,int num2){
         return Math.pow(num1,num2);
     }
-    public  double powerDouble(int num1,int num2) {
+    public  double powerDouble(
+            int num1,int num2) {
         return Math.pow(num1, num2);
     }
     public void dispaly(){
