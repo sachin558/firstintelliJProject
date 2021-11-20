@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /*
 Q8. Create a new class called Calculator with the following methods:
 1. A static method called powerInt(int num1,int num2)
@@ -8,7 +7,6 @@ This method should return num1 to the power num2.
 This method should return num1 to the power num2.
 3. Invoke both the methods and test the functionalities.
 Hint: Use Math.pow(double,double) to calculate the power.
-
 */
 public class Claculat3 {
     int num1;
@@ -36,6 +34,5 @@ public class Claculat3 {
     public static void main(String[] args) {
         Claculat3 obj=new Claculat3();
         obj.dispaly();
-
     }
 }
