@@ -19,7 +19,6 @@ Enter the index of the array element you want to access
 The array element at index 1 = 80
 The array element successfully accessed
 
-
  Sample Input and Output 2:
 Enter the number of elements in the array
 2
@@ -29,8 +28,6 @@ Enter the elements in the array
 Enter the index of the array element you want to access
 9
 java.lang.ArrayIndexOutOfBoundsException
-
-
  Sample Input and Output 3:
 Enter the number of elements in the array
 2
@@ -44,23 +41,19 @@ public class ExceptionHandlingQustion1 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the number of elements in the arrays");
-        int n = sc.nextInt();
-
-        int[] arr = new int[n];
-
+        int size = sc.nextInt();
+        int[] arr = new int[size];
         System.out.println("Enter the elements in the array: ");
         try {
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < size; i++)
                 arr[i] = sc.nextInt();
-
             System.out.println("Enter the index of the array element you want to access");
-
             int index = sc.nextInt();
             System.out.println("The array element at index " + index + " = " + arr[index]);
             System.out.println("The array element successfully accessed");
         } catch (ArrayIndexOutOfBoundsException obj) {
             System.out.println(obj);
-        } catch (InputMismatchException obj1) {
+        } catch (NumberFormatException obj1) {
             System.out.println(obj1);
         }
 

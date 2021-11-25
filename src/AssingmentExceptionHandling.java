@@ -25,7 +25,7 @@ public class AssingmentExceptionHandling {
             System.out.println("The work has been done successfully");
         }
         catch (NumberFormatException u){
-            System.out.println("Enter number 9is the not valid format for an integre");
+            System.out.println("Enter number 9is the not valid format for an integre"+u);
         }
         sc.close();
     }
