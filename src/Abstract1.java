@@ -1,5 +1,7 @@
+import java.util.*;
+
 abstract class Abstract1 {
-    abstract void sachin();
+    abstract void  sachin();
 }
 class  sachin1 extends Abstract1{
     @Override
