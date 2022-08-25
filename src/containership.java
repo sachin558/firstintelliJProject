@@ -1,10 +1,16 @@
+import java.util.Scanner;
+
 public class containership {
     public static void main (String []args){
         System.out.println();
         Laptop obj=new Laptop();
-        obj.p1.price=100;
-        obj.p1.name="hp";
-        obj.p1.weight=2;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("entre the price of the laptop ");
+        obj.p1.price=sc.nextInt();
+        System.out.println("entre the company name of the name  ");
+        obj.p1.name=sc.next();
+        System.out.println("entre the weight of the laptop  ");
+        obj.p1.weight=sc.nextInt();
         obj.display();
     }
 }

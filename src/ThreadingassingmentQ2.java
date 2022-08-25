@@ -21,5 +21,6 @@ public class ThreadingassingmentQ2 implements Runnable{
         ThreadingassingmentQ2 obj=new ThreadingassingmentQ2();
         Thread obj1=new Thread(obj);
         obj1.start();
+
     }
 }
